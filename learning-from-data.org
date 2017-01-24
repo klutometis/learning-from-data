@@ -1,0 +1,33 @@
+* Chapter 1
+** Exercise 1.1
+*** a
+    - $X$ :: Vitals, DNA expression
+    - $Y$ :: Presence/absence of problem(s)
+    - $f$ :: Given these vitals, etc., what are the applicable problems?
+    - data :: Vitals and problem(s) per patient over time
+*** b
+    - $X$ :: Handwriting glyphs
+    - $Y$ :: Symbols they correspond to
+    - $f$ :: Given this glyph, what is the corresponding symbol?
+    - data :: E.g. 64x64 PNGs, one per glyph
+*** c
+    - $X$ :: Email body, sender
+    - $Y$ :: Whether spam or not
+    - $f$ :: Given this email and sender, is it spam?
+    - data :: Emails
+*** d
+    - $X$ :: Price, temperature and day of week at some given time
+    - $Y$ :: Load
+    - $f$ :: Given price, etc., what is the load?
+    - data :: Collection of price-temperator-day tuples at times $T$.
+*** e
+    - $X$ :: Education, race, religion, income
+    - $Y$ :: Supports Trump
+    - $f$ :: Given education, etc., how likely to support Trump?
+    - data :: Education, etc. tuples from survey.
+* Notes
+** Chapter 1
+   - Input $x$; target function $f: X \to Y$; input space $X$; output space $Y$;
+     data set $D = (x_1, y_1), ...$; hypothesis $H$, candidate $g: X \to Y$ that
+     approximates $f$.
+   - Issues decision on $g$, $f$ remains unknown.
