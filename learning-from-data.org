@@ -1,5 +1,6 @@
-* Chapter 1
-** Exercise 1.1
+* TODO Chapter 1
+** DONE Exercise 1.1
+   CLOSED: [2017-02-27 Mon 17:12]
 *** a
     - $X$ :: Vitals, DNA expression
     - $Y$ :: Presence/absence of problem(s)
@@ -25,9 +26,23 @@
     - $Y$ :: Supports Trump
     - $f$ :: Given education, etc., how likely to support Trump?
     - data :: Education, etc. tuples from survey.
+** Exercise 1.2
 * Notes
 ** Chapter 1
    - Input $x$; target function $f: X \to Y$; input space $X$; output space $Y$;
      data set $D = (x_1, y_1), ...$; hypothesis $H$, candidate $g: X \to Y$ that
      approximates $f$.
    - Issues decision on $g$, $f$ remains unknown.
+   - Hypothesis set and learning algorithm: learning model.
+   - Approve credit if $\Sum^d_{i=1}w_ix_i > threshold$, etc.:
+     $h(x)=sign((\Sum^d_{i=1}w_ix_i) + b)
+   - All hypotheses $h \in H$
+   - This model of H call the perceptron.
+   - Perceptron classification of linearly separable data in a two dimension
+     input space
+   - Some of the weights negative, corresponding to adverse effect on credit
+     approval.
+   - Expectation of (variable - mean)^2 is the variance
+   - I.i.d.: independent and identically distributed
+   - Linearity of expectation
+   - Begin from definition of expectation
